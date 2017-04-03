@@ -1,0 +1,16 @@
+# Site settings
+title: Programmer
+email: programmer@email
+description: Technician // Programmer // Gamer
+
+
+# Build settings
+
+markdown: kramdown
+permalink: pretty
+
+port: 8080
+
+sass:
+  sass_dir: assets/css
+  style: :nested
