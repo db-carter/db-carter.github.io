@@ -242,8 +242,8 @@ header {
     float: left;
     margin: 10px 0 0 30px; }
     header .logo path {
-      fill: #fff;
-      opacity: 0.8; }
+      fill: #000;
+      opacity: 0.7; }
   header nav {
     float: right;
     margin: 30px 30px 0 0; }
@@ -257,7 +257,8 @@ header {
     text-align: center;
     font-size: 72px;
     font-weight: 700;
-    color: white;
+    color: black;
+    opacity: 0.7;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 20px;
@@ -266,12 +267,13 @@ header {
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
-      border: white solid;
+      border: black solid;
       border-width: 10px; }
   header .kicker {
     text-align: center;
     letter-spacing: 0.5em;
-    color: white;
+    color: black;
+    opacity: 0.7;
     line-height: 1; }
 
 footer {
@@ -289,7 +291,7 @@ footer {
       float: left;
       margin-right: 30px; }
       footer .lockup .logo path {
-        fill: white;
+        fill: #000;
         opacity: 0.7; }
     footer .lockup .content-wrap {
       padding-top: 5px;
